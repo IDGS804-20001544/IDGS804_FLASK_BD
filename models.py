@@ -10,6 +10,6 @@ class Alumnos(db.Model):
     nombre=db.Column(db.String(50))
     apaterno=db.Column(db.String(50))
     email=db.Column(db.String(50))
-    created_date=db.Column(db.DateTime,default=datetime.datetime.now)
+    #created_date=db.Column(db.DateTime,default=datetime.datetime.now)
 
     
